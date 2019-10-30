@@ -40,8 +40,8 @@ https://codepen.io/PhillyProgramer215/pen/eYYGgmg
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+    1. What is the difference between an inline element and a block element? inline elements do not cause a line break where as block elemts do 
+    2. What happens when an element is positioned absolutely? it is removed from the normal flow and is positioned automatically to the starting point in the top left corner of its parent element.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? use margin in the styling and don't use elements such as <br>within the text. Using margin will allow for you to style the element and the space that it needs.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. 1. <div><h1><p> 2. <span><strong> 3. <li>
+    5. In your own words, explain the box model. What is the fix for the box model? it is the box around an element in HTML. margins, borders, madding.
